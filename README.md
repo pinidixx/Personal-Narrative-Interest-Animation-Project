@@ -16,26 +16,16 @@ Implement algorithms – Implement one or more algorithms that use loops and log
 
 ## UML Diagram
 
-Put an image of your UML Diagram here. Upload the image of your UML Diagram to your repository, then use the Markdown syntax to insert your image here. Make sure your image file name is one work, otherwise it might not properly get displayed on this README.
-
 ![UML Diagram for my project](UML diagram.png)
 
 ## Video
-
-Record a short video of your story to display here on your README. You can do this by:
-
-- Screen record your project running on Code.org.
-- Upload that recording to YouTube.
-- Take a thumbnail for your image.
-- Upload the thumbnail image to your repo.
-- Use the following markdown
 
 [![Thumbnail for my project](YoutubeThumbnail.png)] (https://youtu.be/feGsVoEA8OA)
 
 ## Story Description
 
-This animation is a story of my culture and my favorite foods/drinks. In the class, sceneOne, images like my country flag, main religion (buddhism), popular festivals where people dress up in cultural attire, and the Kandy parade or perahara which is a 10-day festival in Kandy, Sri Lanka to honor Buddha. Elephants are shown because it features costumes elephants, dancers, drummers, etc. In the SceneTwo class, there are images of Kothu which is a dish made of roti, vegetables, and sauces. Following that, are images of Honey Rings, a deep fried sweet with sugar syrup and egg hoppers which are round-shaped frice dough with an egg in the center, typically eaten for breakfast. The drink images that I put were some of my favorites including King Coconut,diwul which is a drink made of woodapple, necto, a popular drink from the brand Elephant House, and falooda which consists of chia seeds, sweetened milk, and topped with ice cream. The data that is represented in my 2D array for SceneOne is the image file name and then the title. The data that is represented in my 2D array for SceneTwo is the image file name for either the food or drink, followed by the title. This data is useful because in order for the recap to happen, the 2D array is needed.
+This animation is a story of my culture and my favorite foods/drinks. In the class, sceneOne, images like my country flag, main religion (buddhism), popular festivals where people dress up in cultural attire, and the Kandy parade or perahara which is a 10-day festival in Kandy to honor Buddha is shown. Elephants are shown because it features costumed elephants, dancers, drummers, etc. In the SceneTwo class, there are images of Kothu which is a dish made of roti, vegetables, and sauces. Following that, are images of Honey Rings, a deep fried sweet with sugar syrup and egg hoppers which are round-shaped frice dough with an egg in the center, typically eaten for breakfast. The drink images that I put were some of my favorites including King Coconut,diwul which is a drink made of woodapple, necto, a popular drink from the brand Elephant House, and falooda which consists of chia seeds, sweetened milk, and topped with ice cream. The data that is represented in my 2D array for SceneOne is the image file name and then the title. The data that is represented in my 2D array for SceneTwo is the image file name for either the food or drink, followed by the title. This data is useful because in order for the recap to happen, the 2D array is needed.
 
 ## Image Filter Analysis
 
-The image filter I created was the grayFilter. First, this filter gets the 2D array of all the pixels in an image, specifically necto and falooda because it was called in SceneTwo. Then, using a for loop, it loops through the rows and the columns. Using Pixel p = pixels[row][col], it gets the current pixel. Then through, int gray = (p.getRed() + p.getGreen() + p.getBlue()) / 3, it calculates the average of red, green, and blue, dividing by three since there all only three color values. Then, it sets all RGB values to gray.
+The image filter I created was the grayFilter. First, this filter gets the 2D array of all the pixels in an image, specifically necto and falooda because it was called in SceneTwo. Then, using a for loop, it loops through the rows and the columns. Using Pixel p = pixels[row][col], it gets the current pixel. Then through, int gray = (p.getRed() + p.getGreen() + p.getBlue()) / 3, it calculates the average of red, green, and blue, dividing by three since there are only three color values. Then, it sets all RGB values to gray.

@@ -1,0 +1,15 @@
+What I prompted:
+Can you help me come up with a filter idea?
+----------------------------------------------------------------------
+What response I recieved:
+Gave me ideas on what to do for different types of filters like grayScale, invert/negative, 
+only one color channel, and posterize. I then modified this "grayScale" idea to create
+a grayFilter.
+----------------------------------------------------------------------
+
+-Starter Code from Mr.Aiello
+-Audio format from Mr.Aiello
+-Audio from Pixabay
+-Images from Google
+-ChatGPT help with ideas on helper methods I could use
+-ChatGPT help with how to cut audio
